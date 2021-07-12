@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
-$colorBlack: black;
-$colorLight: #ffff;
-$colorGrey: grey;
-
 body {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 300;
@@ -29,12 +25,7 @@ body {
 }
 
 .btn-light {
-	color: $colorBlack;
-	background-color: $colorLight;
-	border: 1px solid $colorBlack;
-	border-radius: 0;
-	padding: 1rem 1.5rem;
-	font-size: 1.25rem;
+	@include btn-light;
 }
 
 .btn-light:hover {

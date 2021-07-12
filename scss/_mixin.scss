@@ -1,0 +1,8 @@
+@mixin btn-light {
+	color: $colorBlack;
+	background-color: $colorLight;
+	border: 1px solid $colorBlack;
+	border-radius: 0;
+	padding: 1rem 1.5rem;
+	font-size: 1.25rem;
+}
